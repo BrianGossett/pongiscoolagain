@@ -1,0 +1,25 @@
+-level numbers
+1. normal pong, but watermarked 1 in background
+2. watermarked 2 in the background, a few circle obstacles on the field
+3. watermarked 3 in the background is actually in the foreground and is the obstacle
+
+-change paddle shape
+1. make paddle concave
+2. add triangle into paddle center
+3. make paddle very convex
+
+-fan mechanic
+1. fan is in the middle blowing up or down, turning on or off
+2. 2 fans one on top, one on bottom, that alternate turning on and off
+3. fan transiting around the arena on the entire time, pointed towards the middle
+
+-breakout mechanic
+1. enemy paddle is 18 smaller blocks that break
+2. your paddle is 18 smaller blocks that break
+3. the ball is 16? smaller blocks that break
+
+
+future pong ideas
+pong rpg
+pong dating game
+streamer pong 
