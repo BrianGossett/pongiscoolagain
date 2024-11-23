@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://ce201h8p2rjw1"]
+
+[ext_resource type="PackedScene" uid="uid://5jhapsxwp76a" path="res://Scene/Player/paddle.tscn" id="1_aibgv"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_6k10r"]
+
+[node name="PlayZone" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1153.0
+offset_bottom = 647.0
+texture = SubResource("CanvasTexture_6k10r")
+
+[node name="Paddle" parent="." instance=ExtResource("1_aibgv")]
+position = Vector2(43, 103)

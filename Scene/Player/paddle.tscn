@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://5jhapsxwp76a"]
+
+[ext_resource type="Script" path="res://Scene/Player/paddle.gd" id="1_uls0p"]
+[ext_resource type="Texture2D" uid="uid://bkm8ui8lho706" path="res://Resources/pong_black_bar_paddle.png" id="2_qeqig"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hvy8w"]
+height = 104.0
+
+[node name="Paddle" type="CharacterBody2D"]
+script = ExtResource("1_uls0p")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_hvy8w")
+debug_color = Color(0.563067, 0.498379, 0.679655, 0.42)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_qeqig")
